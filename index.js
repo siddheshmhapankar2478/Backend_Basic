@@ -11,15 +11,15 @@ const app = express();
 // });
 
 app.get("/", (req, res) => {
-  res.json({ message: "Hello Vercel" });
+  res.json({ message: "Home Page" });
 });
 
 app.get("/login", (req, res) => {
-  res.json({ message: "Login" });
+  res.json({ message: "Login Page" });
 });
 
 app.get("/register", (req, res) => {
-  res.json({ message: "Register" });
+  res.json({ message: "Register Page" });
 });
 
 app.listen(process.env.PORT, () => {
